@@ -9,7 +9,6 @@ const cors   = require('cors');
 const path   = require('path');
 const router = express.Router();
 const app    = express();
-const controller = require('./controller.js');
 
 const dist = path.join(__dirname, '../client/dist');
 
@@ -28,27 +27,11 @@ router.get('/:url', function(req, res) {
 //   cert: fs.readFileSync(process.env.HTTPS_CERT)
 // };
 
-const validateClient = function (req, res, next) {
-  const authCheck = req.headers.auth;
-
-  if (authCheck === process.env.SERVER_AUTH) {
-    next();
-  } else {
-    return res.status(403).send('Request denied');
-  }
-};
-
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(express.static(dist));
 app.use(router);
-app.use(validateClient);
-
-app.post('/api/users', controller.createUser);
-app.get('/api/users/:uid', controller.getUser);
-
-// app.get('/api/fix', controller.fix);
 
 const PORT = 4001;
 

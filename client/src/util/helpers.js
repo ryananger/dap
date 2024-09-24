@@ -1,5 +1,4 @@
 import st from 'ryscott-st';
-import ax from './ax.js';
 
 var helpers = {
   rand: function(num) {

@@ -33,8 +33,6 @@ import {MdAddToPhotos as AddPhotosIcon,
 import {SlOptionsVertical as OptionsIcon} from 'react-icons/sl';
 import {GoGoal as GoalIcon} from 'react-icons/go';
 
-
-
 const icons = {
   LoginIcon: LoginIcon,
   LogoutIcon: LogoutIcon,

@@ -1,22 +1,19 @@
 import React, {useEffect, useState} from 'react';
 
 import st from 'ryscott-st';
-import icons from 'icons';
-import {firebase} from '../util';
 
 const Nav = function() {
-  var logOut = function() {
-    firebase.logOut();
-    st.setUser(null);
-    st.setView('landing');
-    document.cookie = 'user=';
-  };
-
   return (
     <div className='nav h'>
-      <h3>squawk</h3>
-      {st.user && <icons.LogoutIcon className='icon' size={32} onClick={logOut}/>}
-      {!st.user && <icons.LoginIcon className='icon' size={32} onClick={()=>{st.setView('login')}}/>}
+      <h3><a href='/'>dap Bookkeeping and More</a></h3>
+      <div className='h'>
+        <a className='navButton' href='/'>HOME</a>
+        <a className='navButton' href='/services'>SERVICES</a>
+        <a className='navButton' href='/about'>ABOUT</a>
+        <a className='navButton' href='/whoWeServe'>WHO WE SERVE</a>
+        <a className='navButton' href='/locations'>LOCATIONS</a>
+        <a className='navButton' href='/contact'>CONTACT US</a>
+      </div>
     </div>
   );
 };

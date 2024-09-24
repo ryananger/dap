@@ -2,39 +2,27 @@ import React, {useEffect, useState} from 'react';
 
 import '../styles/style.css';
 import st from 'ryscott-st';
-import {ax, helpers} from 'util';
+import {helpers} from 'util';
 
-import Alert from './Alert.jsx';
-import Login from './Login.jsx';
-import Landing from './Landing.jsx';
-import Home from './Home.jsx';
 import Nav from './Nav.jsx';
+import Home from './home/Home.jsx';
+import Services from './services/Services.jsx';
 
-const cookie = helpers.cookieParse();
+const route = window.location.pathname.slice(1);
 
 const App = function() {
-  const [view, setView] = st.newState('view', useState('landing'));
-  const [user, setUser] = st.newState('user', useState(null));
+  const [view, setView] = st.newState('view', useState(!route ? 'home' : route));
 
   const views = {
-    landing: <Landing/>,
-    login: <Login/>,
-    home: <Home/>
+    home: <Home/>,
+    services: <Services/>
   };
-
-  var handleCookie = function() {
-    if (cookie.user) {
-      ax.getUser(cookie.user);
-    }
-  };
-
-  useEffect(handleCookie, []);
 
   return (
     <div id='app' className='app texture v'>
-      <Alert/>
-      {view !== 'landing' && <Nav/>}
+      <Nav/>
       {views[view]}
+      <div className='foot'></div>
     </div>
   );
 };
