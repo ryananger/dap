@@ -6,7 +6,7 @@ const ServicesSlides = function() {
   return (
     <>
     <div className='servicesSlide h'>
-      <img className='servicesImage' src='images/bookkeeping0.png' style={{marginRight: '1vh'}}/>
+      <img className='servicesImage' src='images/bookkeeping7.jpg' style={{marginRight: '1vh'}}/>
       <div className='servicesContent v'>
         <h2>Accounts Payable</h2><br/>
         At dap Bookkeeping and More, we process vendor bills, manage vendor balances and review monthly statements. 
@@ -19,7 +19,7 @@ const ServicesSlides = function() {
         At dap Bookkeeping and More, we can manage your customers.
         Our services range from setup of new customers, to invoicing, monthly statements and collection of accounts. 
       </div>
-      <img className='servicesImage' src='images/bookkeeping0.png' style={{marginLeft: '1vh'}}/>
+      <img className='servicesImage' src='images/bookkeeping3.jpg' style={{marginLeft: '1vh'}}/>
     </div>
     <div className='servicesSlide h'>
       <img className='servicesImage' src='images/bookkeeping0.png' style={{marginRight: '1vh'}}/>
@@ -38,7 +38,7 @@ const ServicesSlides = function() {
         We identify errors and bring them to your attention. 
         dap Bookkeeping and More, wants you to feel confident your financials are current and accurate.
       </div>
-      <img className='servicesImage' src='images/bookkeeping0.png' style={{marginLeft: '1vh'}}/>
+      <img className='servicesImage' src='images/bookkeeping6.jpg' style={{marginLeft: '1vh'}}/>
     </div>
     </>
   );
