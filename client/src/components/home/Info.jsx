@@ -8,17 +8,17 @@ const Info = function() {
       <div className='infoBox v'>
         <h2>Small Business Bookkeeping</h2>
         <p>Managing your daily, monthly, and yearly bookkeeping needs.</p>
-        <button onClick={()=>{window.location.href = '/services'}}>LEARN MORE</button>
-      </div>
-      <div className='infoBox v'>
-        <h2>Quickbooks Services</h2>
-        <p>We are a team of Advanced Certified QBO Pro Advisors.</p>
-        <button>LEARN MORE</button>
+        <button><a href='/services'>LEARN MORE</a></button>
       </div>
       <div className='infoBox v'>
         <h2>Payroll Services</h2>
         <p>We work with cloud-based payroll platforms.</p>
-        <button>LEARN MORE</button>
+        <button><a href='/services#payroll'>LEARN MORE</a></button>
+      </div>
+      <div className='infoBox v'>
+        <h2>Quickbooks Services</h2>
+        <p>We are a team of Advanced Certified QBO Pro Advisors.</p>
+        <button><a href='/services#quickbooks'>LEARN MORE</a></button>
       </div>
     </div>
   );

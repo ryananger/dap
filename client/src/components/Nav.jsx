@@ -10,7 +10,6 @@ const Nav = function() {
         <a className='navButton' href='/'>HOME</a>
         <a className='navButton' href='/services'>SERVICES</a>
         <a className='navButton' href='/about'>ABOUT</a>
-        <a className='navButton' href='/whoWeServe'>WHO WE SERVE</a>
         <a className='navButton' href='/locations'>LOCATIONS</a>
         <a className='navButton' href='/contact'>CONTACT US</a>
       </div>

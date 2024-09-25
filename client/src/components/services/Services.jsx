@@ -113,7 +113,6 @@ const Services = function() {
           Get practical, hands-on tips and insights that will empower you and your team to make the most of QuickBooks.
           <br/><br/>
           Whether you're just starting out or need advanced training, we offer sessions tailored to your skill level—from basic setup to advanced features.
-          Learn how to securely store, access, and share your financial data anytime, anywhere, ensuring you have the information you need to make smart business decisions.
           </p>
         </div>
       </div>
@@ -129,9 +128,7 @@ const Services = function() {
           Stay current with the latest QuickBooks features and updates.
           At dap Bookkeeping and More, our Intuit-certified QuickBooks ProAdvisors offer expert support and training for QuickBooks Online, Pro, Premier, POS, and Enterprise.
           <br/><br/>
-          Through our comprehensive training, you'll learn how to implement new features that enhance both your knowledge and efficiency.
-          Improve your QuickBooks setup, problem-solving, and troubleshooting with focused, hands-on learning.
-          Gain valuable experience in essential tasks such as online bill payments, invoicing, expense tracking, report generation, payroll, and more..
+          Through our comprehensive training, you'll learn how to implement new features that enhance both your knowledge and efficiency..
           </p>
         </div>
       </div>
