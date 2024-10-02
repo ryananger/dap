@@ -345,3 +345,70 @@ button:hover {
   width: 280px;
   margin: 12px;
 }
+
+@media (max-width: 1024px) {
+  .bannerBoxContent h1 {
+    font-size: 2.4em;
+  }
+
+  .bannerBoxContent h2 {
+    font-size: 1.4em;
+  }
+
+  .navButtons {
+    display: none;
+  }
+
+  .banner {
+    height: unset;
+  }
+
+  .banner > img {
+    width: unset;
+    height: 100%;
+  }
+
+  .bannerContent {
+    width: 95%;
+  }
+
+  .bannerBox {
+    height: 95%;
+    aspect-ratio: unset;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .services {
+    width: unset;
+  }
+
+  .servicesSlide {
+    flex-direction: column;
+  }
+
+  .servicesImage {
+    margin-right: unset !important;
+    margin-left: unset !important;
+    margin: 1vh;
+  }
+
+  .bannerBox.tall {
+    height: unset;
+  }
+
+  #quickbooks ul {
+    font-size: 0.8em;
+    padding-inline-start: 8px;
+  }
+
+  .triplet {
+    flex-direction: column;
+  }
+
+  .triplet .bannerBox {
+    max-width: 95%;
+  }
+}

@@ -44,7 +44,7 @@ const Services = function() {
             We'll help set short-term and long-term goals and provide the tools needed to achieve them. 
             Using financial software like QuickBooks, we help optimize operations and improve profitability.
             </p>
-            <button>GET A FREE CONSULTATION</button>
+            <button><a href='/contact'>GET A FREE CONSULTATION</a></button>
           </div>
         </div>
       </div>
