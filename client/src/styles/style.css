@@ -113,7 +113,7 @@ a:visited {
 }
 
 .foot {
-  height: 96px;
+  height: 48px;
   width: 100%;
   flex: none;
   background-color: white;
@@ -166,8 +166,9 @@ button:hover {
 /* NAV */
 
 .nav {
-  padding: 0.5vh;
+  padding: 0.5vh 1vh;
   width: 100%;
+  height: 48px;
   justify-content: space-between;
   box-shadow: 0 2px 2px var(--shadow);
   z-index: 1;
@@ -181,6 +182,18 @@ button:hover {
 
 .navButton:hover {
   font-weight: 600;
+}
+
+.servicesNavButton {
+  position: relative;
+}
+
+.servicesDropdown {
+  position: absolute;
+  top: 60px;
+  width: 160px;
+  background-color: white;
+  box-shadow: 0 2px 2px var(--shadow);
 }
 
 /* PEACE OF MIND */
@@ -324,4 +337,11 @@ button:hover {
 
 .banner.tall {
   height: 800px;
+}
+
+/* ABOUT */
+
+.about img {
+  width: 280px;
+  margin: 12px;
 }

@@ -36,7 +36,7 @@ const Services = function() {
             <h1>Consulting Services</h1>
             <p>
             We are dedicated to quality and client satisfaction. 
-            At Innovative Bookkeeping Solutions, we help businesses grow by creating favorable conditions for success. 
+            At dap Bookkeeping and More, we help businesses grow by creating favorable conditions for success. 
             Whether you're starting a new business or expanding an existing one, our team of experienced professionals is here to offer expert advice. 
             We work with businesses of all sizes, from startups to established companies, to develop personalized strategies.
             <br/><br/>
@@ -57,7 +57,7 @@ const Services = function() {
           <div className='bannerBoxContent v c'>
             <h1>Payroll Services</h1>
             <p>
-            At Innovative Bookkeeping Solutions, we offer fast and reliable payroll services so you can focus on your business. 
+            At dap Bookkeeping and More, we offer fast and reliable payroll services so you can focus on your business. 
             Managing payroll involves more than just paying employees on time – it also includes tracking hours, benefits, deductions, and more, which can be complex and time-consuming. 
             <br/><br/>
             Instead of handling it in-house, let us take care of it for you. 

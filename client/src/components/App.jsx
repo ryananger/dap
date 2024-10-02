@@ -8,6 +8,8 @@ import Nav from './Nav.jsx';
 import Home from './home/Home.jsx';
 import Services from './services/Services.jsx';
 import Locations from './Locations.jsx';
+import About from './About.jsx';
+import Contact from './Contact.jsx';
 
 const route = window.location.pathname.slice(1);
 
@@ -17,7 +19,9 @@ const App = function() {
   const views = {
     home: <Home/>,
     services: <Services/>,
-    locations: <Locations/>
+    locations: <Locations/>,
+    about: <About/>,
+    contact: <Contact/>
   };
 
   return (

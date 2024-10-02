@@ -19,7 +19,7 @@ const WhyChoose = function() {
               After years of seeing this happen in small businesses, I started remote bookkeeping services 
               to help owners ensure that their business is on a successful journey of growing in an ever-changing competitive market. 
             </p>
-            <button>WORK WITH US</button>
+            <button><a href='/contact'>WORK WITH US</a></button>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ const Info = function() {
         <button><a href='/services#payroll'>LEARN MORE</a></button>
       </div>
       <div className='infoBox v'>
-        <h2>Quickbooks Services</h2>
+        <h2>QuickBooks Services</h2>
         <p>We are a team of Advanced Certified QBO Pro Advisors.</p>
         <button><a href='/services#quickbooks'>LEARN MORE</a></button>
       </div>
