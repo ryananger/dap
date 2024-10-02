@@ -4,4 +4,4 @@
 /client/dist/bundle.js.LICENSE.txt.gz
 /node_modules/
 .env
-techTree_home.pem
+dap_key.pem

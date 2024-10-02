@@ -7,7 +7,7 @@ const Nav = function() {
 
   return (
     <div className='nav h'>
-      <h3><a href='/'>dap Bookkeeping and More</a></h3>
+      <a className='h c' href='/'><img src='images/dap_logo.svg' style={{height: '36px'}}/>&ensp;Bookkeeping and More</a>
       <div className='h'>
         <a className='navButton' href='/'>HOME</a>
         <div className='servicesNavButton v c' onClick={()=>{setDrop(!drop)}}>
