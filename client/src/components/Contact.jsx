@@ -22,8 +22,8 @@ const Contact = function() {
             <h2>815.370.6532</h2>
             <br/>
             <div>
-              <FBIcon size={36}/>
-              <LinkedInIcon size={36}/>
+              <a href='https://www.facebook.com/profile.php?id=100066497949115'><FBIcon size={36}/></a>
+              <a href='https://www.linkedin.com/in/debbie-anzelc-550152119/'><LinkedInIcon size={36}/></a>
             </div>
           </div>
         </div>
