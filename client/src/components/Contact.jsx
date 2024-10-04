@@ -19,6 +19,7 @@ const Contact = function() {
               <br/><br/>
               Contact us now for more information!
             </p>
+            <h4><a href='mailto:bookkeepingandmoreserv@gmail.com'>bookkeepingandmoreserv@gmail.com</a></h4>
             <h2>815.370.6532</h2>
             <br/>
             <div>

@@ -126,9 +126,9 @@ const Services = function() {
           <h2>QuickBooks Support or Training</h2>
           <p>
           Stay current with the latest QuickBooks features and updates.
-          At dap Bookkeeping and More, our Intuit-certified QuickBooks ProAdvisors offer expert support and training for QuickBooks Online, Pro, Premier, POS, and Enterprise.
+          At dap Bookkeeping and More, our Intuit-certified QuickBooks ProAdvisors offer expert support and training for all QuickBooks Online and QuickBooks Desktop Products.
           <br/><br/>
-          Through our comprehensive training, you'll learn how to implement new features that enhance both your knowledge and efficiency..
+          Through our comprehensive training, you'll learn how to implement new features that enhance both your knowledge and efficiency.
           </p>
         </div>
       </div>
